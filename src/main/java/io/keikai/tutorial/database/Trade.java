@@ -22,17 +22,6 @@ public class Trade {
 		this.sale = sale;
 	}
 	
-	/**
-	 * copy constructor
-	 * @param trade
-	 */
-	public Trade(Trade trade){
-		this.id = trade.getId();
-		this.type = trade.getType();
-		this.sale = trade.getSale();
-		this.salesPerson = trade.getSalesPerson();
-	}
-	
 	public String getType() {
 		return type;
 	}
