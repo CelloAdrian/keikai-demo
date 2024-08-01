@@ -1,7 +1,8 @@
 ## Setting up the database
 1. Create a MySQL database, for the purpose of this tutorial, it's called `keikai_tutorial`
-2. Create the table, for the purpose of this tutorial, it's called `trades`
-3. Populate the table with data
+* You can change the database credentials in `src\main\java\io\keikai\tutorial\database\DatabaseComposer.java`
+1. Create the table, for the purpose of this tutorial, it's called `trades`
+2. Populate the table with data
 
 ## Running the project
 
